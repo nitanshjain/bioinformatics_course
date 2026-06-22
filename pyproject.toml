@@ -1,0 +1,16 @@
+[project]
+name = "bioinformatics_coursera"
+version = "0.1.0"
+description = "A collection of bioinformatics projects and assignments from Coursera courses."
+authors = [
+    { name = "Nitansh Jain", email = "nitanshjain@gmail.com" }
+]
+
+require-python = ">=3.12"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "biopython>=1.80",
+    "matplotlib>=3.7.0",
+    "scipy>=1.10.0"
+]
